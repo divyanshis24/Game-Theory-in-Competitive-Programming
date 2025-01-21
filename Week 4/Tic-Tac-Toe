@@ -22,11 +22,8 @@ Requirements:
 Define constants for WIN_SCORE, LOSE_SCORE, and the size of the board (e.g., +10, -10, and 3x3).
 Ensure the AI considers depth to prioritize faster victories or slower defeats.
 Handle edge cases like empty boards, already completed games, and draw scenarios.
-Example Input:
 
-python
-Copy
-Edit
+Example Input:
 # Current Tic-Tac-Toe Board
 # 'X' is the maximizing player, 'O' is the minimizing player.
 # '_' represents an empty cell.
@@ -36,9 +33,6 @@ board = [
     ['_', 'O', '_'],
     ['_', '_', 'X']
 ]
-Expected Output:
 
-mathematica
-Copy
-Edit
+Expected Output:
 Best Move: (2, 1)  # Row 2, Column 1 (0-indexed)
